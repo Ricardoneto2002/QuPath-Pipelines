@@ -63,6 +63,7 @@ Filter Small Annotations: Run the DeleteMinAreaNuclei script. This step automati
 Script: DeleteMinAreaNuclei.groovy
 
 
+
 **Step 3: Neuron Classification Setup**
 
 This process uses supervised machine learning to identify neurons based on the HuC/D channel signal.
@@ -82,6 +83,7 @@ Nucleus Classification: Execute the NeuronvsNonNeuron\_annotations script. This 
 
 
 Script: NeuronvsNonNeuron\_annotations.groovy
+
 
 
 **Step 4: Cleanup Annotations**
@@ -167,14 +169,14 @@ Script: TERRA(+-)\_annotations.groovy
 
 
 
+
 Below is a representative image showcasing the final classification of cell annotations into the four categories after the full TERRA-FISH pipeline has been applied.
 
 
 
-!\[Representative Image of TERRA-FISH Classification](TERRA-FISH\_RepresentativePipeline.png)
+!\[Representative Image of TERRA-FISH Classification](RepresentativePipeline.png)
 
 
 
 The image illustrates how different cell types and TERRA positivity are visualized, enabling clear interpretation of the analysis results.
-
 
